@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mitsav - The Techfest 2025</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <!-- Bootstrap CSS CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS Bundle (for modal) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Hero Section Start -->
+<!-- Hero Section Start -->
+<section id="home" class="hero-section d-flex align-items-center justify-content-center text-white">
+  <div class="container text-center">
+    <h1 class="display-4 fw-bold">COMING SOON <BR><span class="text-warning">MITSAV THE TECHFEST 2025</span></h1>
+    <p class="lead">Don’t miss the adventure. Join us in a celebration of technology, culture, and talent!</p>
+
+    <div class="countdown d-flex justify-content-center mt-4">
+      <div class="time-box mx-2">
+        <h2 id="days">00</h2><span>Days</span>
+      </div>
+      <div class="time-box mx-2">
+        <h2 id="hours">00</h2><span>Hours</span>
+      </div>
+      <div class="time-box mx-2">
+        <h2 id="minutes">00</h2><span>Minutes</span>
+      </div>
+      <div class="time-box mx-2">
+        <h2 id="seconds">00</h2><span>Seconds</span>
+      </div>
+    </div>
+     <p class="mt-3 fs-5 fw-semibold text-warning">📅 4 July – 6 July 2025</p>
+     <a href="#events" class="btn btn-outline-light mt-3 px-4 py-2 fw-bold">Explore Events</a>
+  </div>
+</section>
+<!-- Hero Section End -->
+
+<!-- Navbar Start -->
+<nav class="navbar-custom">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <img src="images/logo.png" alt="Logo">
+      <span>Maryland Institute of Technology and Management</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- Navbar End -->
+ <!-- ============ EVENT SECTION ============ -->
+<section id="events" style="padding: 60px 0; background-color: #f0f4f8">
+  <div class="container">
+    <h2 class="text-center mb-5">🎯 Our Events</h2>
+
+    <!-- 🛠 Technical Competition -->
+    <h4 class="mb-4 text-center">🛠 Technical Competition</h4>
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Technical Quiz Competition.jpeg" class="card-img-top" alt="Technical Quiz">
+          <div class="card-body text-center">
+            <h5 class="card-title">Technical Quiz Competition</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal1">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Working Model Exhibition.jpeg" class="card-img-top" alt="Working Model Exhibition">
+          <div class="card-body text-center">
+            <h5 class="card-title">Working Model Exhibition</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal2">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Technical Poster Making.jpeg" class="card-img-top" alt="Technical Poster Making">
+          <div class="card-body text-center">
+            <h5 class="card-title">Technical Poster Making</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal3">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Coding Competition.jpeg" class="card-img-top" alt="Coding Competition">
+          <div class="card-body text-center">
+            <h5 class="card-title">Coding Competition</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal4">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Robo-Race.jpeg" class="card-img-top" alt="Robo-Race">
+          <div class="card-body text-center">
+            <h5 class="card-title">Robo-Race</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal5">More Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- 🎭 Cultural Activities -->
+    <h4 class="mb-4 mt-5 text-center">🎭 Cultural Activities Competition</h4>
+    <div class="row">
+      <!-- Card 6 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Solo Dance.jpeg" class="card-img-top" alt="Solo Dance">
+          <div class="card-body text-center">
+            <h5 class="card-title">Solo Dance</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal6">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Group Dance.jpeg" class="card-img-top" alt="Group Dance">
+          <div class="card-body text-center">
+            <h5 class="card-title">Group Dance</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal7">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Singing.jpeg" class="card-img-top" alt="Singing">
+          <div class="card-body text-center">
+            <h5 class="card-title">Singing</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal8">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Stand-up Comedy.jpeg" class="card-img-top" alt="Stand-up Comedy">
+          <div class="card-body text-center">
+            <h5 class="card-title">Stand-up Comedy</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal9">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 10 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Poetry.jpeg" class="card-img-top" alt="Poetry">
+          <div class="card-body text-center">
+            <h5 class="card-title">Poetry</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal10">More Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- 🎨 Fine Arts and Photography -->
+    <h4 class="mb-4 mt-5 text-center">🎨 Fine Arts and Photography Competition</h4>
+    <div class="row">
+      <!-- Card 11 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Rangoli.jpeg" class="card-img-top" alt="Rangoli">
+          <div class="card-body text-center">
+            <h5 class="card-title">Rangoli</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal11">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 12 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/3D Sketch.jpeg" class="card-img-top" alt="3D Sketch">
+          <div class="card-body text-center">
+            <h5 class="card-title">3D Sketch</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal12">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 13 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Face Painting.jpeg" class="card-img-top" alt="Face Painting">
+          <div class="card-body text-center">
+            <h5 class="card-title">Face Painting</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal13">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 14 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Paper Dress Designing.jpeg" class="card-img-top" alt="Paper Dress Designing">
+          <div class="card-body text-center">
+            <h5 class="card-title">Paper Dress Designing</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal14">More Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 🕹 Indoor Sport Events -->
+    <h4 class="mb-4 mt-5 text-center">🕹 Indoor Sport Events</h4>
+    <div class="row">
+      <!-- Card 15 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Carrom.jpeg" class="card-img-top" alt="Carrom">
+          <div class="card-body text-center">
+            <h5 class="card-title">Carrom</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal15">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 16 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/chess.jpeg" class="card-img-top" alt="Chess">
+          <div class="card-body text-center">
+            <h5 class="card-title">Chess</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal16">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 17 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Table Tennis.jpeg" class="card-img-top" alt="Table Tennis">
+          <div class="card-body text-center">
+            <h5 class="card-title">Table Tennis</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal17">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 18 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Online Gaming.jpeg" class="card-img-top" alt="Online Gaming">
+          <div class="card-body text-center">
+            <h5 class="card-title">Online Gaming</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal18">More Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 19 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/Rubik Cube collge student plaing.jpeg" class="card-img-top" alt="Rubik's Cube Challenge">
+          <div class="card-body text-center">
+            <h5 class="card-title">Rubik's Cube Challenge</h5>
+            <a href="#" class="btn btn-success m-1">Enroll Now</a>
+            <button class="btn btn-primary m-1" data-bs-toggle="modal" data-bs-target="#modal19">More Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</section>
+
+
+<!-- ============ MODALS ============ -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal1Label">Technical Quiz Competition - Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        🧠 A multiple-choice quiz focused on core technical concepts.<br>
+        ⏱ Timed rounds with elimination-based format.<br>
+        👨‍🏫 Team or solo participation allowed.<br>
+        🏆 Top 3 scorers will be awarded certificates.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal2Label">Working Model Exhibition - Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ⚙️ Display innovative science or engineering-based models.<br>
+        👩‍🔬 Explain functionality to evaluators.<br>
+        🎓 Judgement based on creativity and practicality.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal3Label">Technical Poster Making - Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        📌 Posters based on technical topics.<br>
+        ✏️ Creativity and information presentation will be judged.<br>
+        🧾 Submit A3 size poster at registration desk.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal4Label">Coding Competition - Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        💻 Problem-solving rounds with increasing difficulty.<br>
+        ⌛ Time-constrained coding challenges.<br>
+        🧑‍💻 Languages allowed: C++, Java, Python.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal5Label">Robo-Race - Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        🤖 Line follower robot to finish track fastest.<br>
+        🛠 Must be student-designed and built.<br>
+        ⏱ Time-based evaluation, penalties for off-track.
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Cultural -->
+<div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal6Label">Solo Dance Rules</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        💃 Solo performance up to 3 minutes.<br>
+        🎵 Background music must be submitted in advance.<br>
+        🌟 Judging based on expression, rhythm, and creativity.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modal7Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal7Label">Group Dance Rules</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        👯‍♂️ Group of 4–10 participants.<br>
+        🎶 4-minute time limit.<br>
+        🏆 Coordination and energy will be judged.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modal8Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal8Label">Singing Competition Rules</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        🎤 Solo singing only.<br>
+        🎼 Participants can choose any genre.<br>
+        📢 Background track or live vocals allowed.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal9" tabindex="-1" aria-labelledby="modal9Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal9Label">Stand-up Comedy Guidelines</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        😂 Clean content only (no vulgarity).<br>
+        🕒 Time limit: 4 minutes.<br>
+        🎭 Original content preferred.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal10" tabindex="-1" aria-labelledby="modal10Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal10Label">Poetry Competition</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        📖 Theme-based or self-written poems.<br>
+        🎙 Max duration: 3 minutes.<br>
+        🌈 Judgement based on creativity, fluency, and emotion.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fine Arts -->
+<div class="modal fade" id="modal11" tabindex="-1" aria-labelledby="modal11Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal11Label">Rangoli Competition</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        🎨 Theme will be announced on the spot.<br>
+        ⏱ Time: 60 minutes.<br>
+        🖌 Bring your own materials.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal12" tabindex="-1" aria-labelledby="modal12Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal12Label">3D Sketch Rules</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ✏️ Topic will be provided.<br>
+        📏 Use only pencil/sketch pens.<br>
+        🕓 Time: 90 minutes.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal13" tabindex="-1" aria-labelledby="modal13Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal13Label">Face Painting Rules</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        👩‍🎨 Partner based event (2 per team).<br>
+        🕘 Time: 60 minutes.<br>
+        🎭 Bring your own non-toxic colors.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal14" tabindex="-1" aria-labelledby="modal14Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal14Label">Paper Dress Designing</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        👗 Design must be wearable.<br>
+        📐 No plastic allowed.<br>
+        ✂️ Material to be brought by participants.
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 15 -->
+<div class="modal fade" id="modal15" tabindex="-1" aria-labelledby="modal15Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal15Label">Carrom Rules</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        🎯 1 vs 1 matches<br>
+        🎯 First to reach 21 points wins<br>
+        🎯 Fouls will be penalized
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 16 -->
+<div class="modal fade" id="modal16" tabindex="-1" aria-labelledby="modal16Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal16Label">Chess Rules</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ♟ Matches will be knockout-based.<br>
+        ♟ Each player will get 10 minutes per match.<br>
+        ♟ No external help or coaching allowed during play.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 17 -->
+<div class="modal fade" id="modal17" tabindex="-1" aria-labelledby="modal17Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal17Label">Table Tennis Rules</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        🏓 11-point set system<br>
+        🏓 Best of 3 matches<br>
+        🏓 No smashing on serve
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 18 -->
+<div class="modal fade" id="modal18" tabindex="-1" aria-labelledby="modal18Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal18Label">Online Gaming Rules</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        🎮 Games will be pre-decided.<br>
+        🎮 Players must use personal devices.<br>
+        🎮 Fair play rules apply strictly.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 19 -->
+<div class="modal fade" id="modal19" tabindex="-1" aria-labelledby="modal19Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal19Label">Rubik's Cube Challenge Rules</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        🧊 Solve standard 3x3 cube<br>
+        🧊 Time-based scoring<br>
+        🧊 One scramble per attempt
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ============ ABOUT SECTION ============ -->
+<section id="about" style="padding: 80px 0; background-color: #ffffff;">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Left Side: Image -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="images/college faste.png" class="img-fluid rounded shadow" alt="About Event">
+      </div>
+
+      <!-- Right Side: Text -->
+      <div class="col-md-6">
+        <h2 style="font-weight: 700;">About the Fest</h2>
+        <p style="font-size: 1.1rem; line-height: 1.9; text-align: justify;">
+          The <strong>Annual Cultural & Technical Fest</strong> of <strong>Maryland Institute of Technology and Management</strong> is not just an event – it's a vibrant celebration of talent, ideas, and youth energy! 🎉 Held once a year, this grand event brings together students from all departments to explore, express, and excel in a dynamic blend of technical brilliance, artistic flair, and sporting spirit.
+          <br><br>
+          With over 20+ events ranging from coding battles, robo-races, and model exhibitions to soulful singing, fiery dance performances, and indoor sports tournaments – there’s something for every creative and competitive soul. It’s a platform where innovation meets imagination, and fun meets fierce competition.
+          <br><br>
+          Beyond the trophies and applause, the fest is about memories that last a lifetime. From setting the stage on fire to cracking quiz questions, painting your imagination, or striking a carrom coin – you’ll find yourself living the most colorful moments of your college journey.
+          <br><br>
+          So get ready to dive into a world full of excitement, friendship, learning, and unforgettable experiences. It’s time to participate, perform, and make history. This is your stage. This is your time. Let the fest begin! 🚀🌟
+        </p>
+        <a href="#events" class="btn btn-primary mt-4">Explore Events</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ============ CONTACT SECTION ============ -->
+<section id="contact" class="py-5" style="background-color: #f0f4f8;">
+  <div class="container">
+    <h2 class="text-center mb-4">📞 Contact Us</h2>
+    <div class="row align-items-center">
+
+      <!-- Contact Info -->
+      <div class="col-md-6 mb-4">
+        <h4>📍 Address</h4>
+        <p>Maryland Institute of Technology and Management,Jamshedpur, Jharkhand</p>
+
+        <h4>📧 Email</h4>
+        <p><a href="mailto:techfest.mitm@gmail.com">techfest.mitm@gmail.com</a></p>
+
+        <h4>📱 Phone</h4>
+        <p>Mr. Kumar (Coordinator): +91-9876543210</p>
+        <p>Anjali Sharma (Event Head): +91-9123456789</p>
+
+        <h4>💬 Follow Us</h4>
+        <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Write your message..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER SECTION ============ -->
+<footer class="bg-dark text-white pt-4 pb-2">
+  <div class="container">
+    <div class="row">
+
+      <!-- About -->
+      <div class="col-md-4 mb-3">
+        <h5>🎉 About TechFest</h5>
+        <p>
+          Mitsav - The Techfest is an annual celebration of innovation, talent, and energy at MITM  College. From robotics to rangoli, it's where creativity meets competition!
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5>🔗 Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+          <li><a href="#events" class="text-white text-decoration-none">Events</a></li>
+          <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4 mb-3">
+        <h5>📬 Contact</h5>
+        <p>Email: <a href="mailto:techfest.mits@gmail.com" class="text-white">techfest.mitm@gmail.com</a></p>
+        <p>Phone: +91-9876543210</p>
+        <div>
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary">
+
+    <!-- Bottom -->
+    <div class="text-center">
+      <p class="mb-0">© 2025 Mitsav TechFest | Designed with ❤️ by Rahul Kumar Mahato</p>
+    </div>
+  </div>
+</footer>
+
+
+
+  
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
