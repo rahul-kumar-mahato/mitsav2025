@@ -15,6 +15,17 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+  <script>
+  function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.toggle('show');
+  }
+
+  function closeMenu() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.remove('show');
+  }
+</script>
 <body>
 <!-- Hero Section Start -->
 <!-- Hero Section Start -->
@@ -50,14 +61,21 @@
       <img src="images/logo.png" alt="Logo">
       <span>Maryland Institute of Technology and Management</span>
     </div>
-    <ul class="nav-links">
-      <li><a href="#home" class="active">Home</a></li>
-      <li><a href="#events">Events</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+
+    <!-- Hamburger on RIGHT -->
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <!-- Nav Links -->
+    <ul class="nav-links" id="navLinks">
+  <li><a href="#home" onclick="closeMenu()">Home</a></li>
+  <li><a href="#events" onclick="closeMenu()">Events</a></li>
+  <li><a href="#about" onclick="closeMenu()">About</a></li>
+  <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+</ul>
+
   </div>
 </nav>
+
 <!-- Navbar End -->
  <!-- ============ EVENT SECTION ============ -->
 <section id="events" style="padding: 60px 0; background-color: #f0f4f8">
@@ -749,5 +767,11 @@
 
   <!-- Bootstrap JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+  function toggleMenu() {
+    const nav = document.getElementById('navLinks');
+    nav.classList.toggle('show');
+  }
+</script>
 </body>
 </html>
